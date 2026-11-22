@@ -1,0 +1,15 @@
+type HeaderProps = {
+    title: string;
+    subtitle: string;
+}
+
+function Header({title, subtitle}: HeaderProps) {
+    return (
+        <header className="header">
+            <h1>{title}</h1>
+            <h1>{subtitle}</h1>
+        </header>
+    );
+}
+
+export default Header;
